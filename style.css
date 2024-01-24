@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("godzilla__king_of_the_monsters__2019__wallpaper_by_mintmovi3_dd4ysnk-414w-2x.png"), rgba(0, 0, 0, 0.9);
+    background-position: center no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(0, 241, 243);;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin-left: 20px;
+    color: rgb(0, 241, 243);
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-content {
+    max-width: 1200px;
+    color: rgb(0, 241, 243);
+}
+
+.main-content h1 {
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.main-content p {
+    max-width: 600px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.main-content button {
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 12px 28px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(0, 241, 243);
+    transition: .4s;
+    cursor: pointer;
+}
+
+.main-content button:hover {
+    background: black;
+    color: rgb(0, 241, 243);
+}
